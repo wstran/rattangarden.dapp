@@ -1,20 +1,15 @@
-import React from 'react';
-import CloudGarden from './components/CloudGarden';
+import React, { useState, useRef } from 'react';
+import InGame from './layouts/InGame';
+import Loading from './layouts/Loading';
+import { generateMD5 } from './hooks/engine';
 
 const App: React.FC = () => {
-  return (
-    <div className="w-full min-h-screen bg-blue-200 flex flex-col items-center scrollbar-hide">
-      {/* <header className="w-full bg-blue-600 p-4 text-white text-center">
-        Mini Web App for Telegram
-      </header> */}
-      <main className="flex-1 w-full flex flex-col items-center bg-red-500">
-        
-      </main>
-      {/* <footer className="w-full bg-blue-600 p-4 text-white text-center">
-        Footer Content
-      </footer> */}
-    </div>
-  );
+
+    return (
+        <div className="flex flex-col items-center justify-center">
+            
+        </div>
+    );
 };
 
 export default App;

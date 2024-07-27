@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { theme_id, themeConfig } from '../theme.config';
+import { theme_id, themeConfig } from '../config';
 
 
 const initialState = {

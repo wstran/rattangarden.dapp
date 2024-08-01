@@ -74,7 +74,7 @@ export const useElementCanMove = () => {
           if (onArrival === 'hide') {
             setIsVisible(false);
           } else if (onArrival === 'delete') {
-            document.getElementById(elementId)?.remove();
+            elementRef.current?.remove();
           }
         }
       };
